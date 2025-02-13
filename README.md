@@ -1,0 +1,1 @@
+This example demonstrates a common error in Rust when working with mutable references.  Attempting to create multiple mutable borrows of the same variable leads to a compile-time error because Rust's borrow checker prevents data races. The solution involves refactoring the code to avoid multiple mutable borrows or using interior mutability techniques.
